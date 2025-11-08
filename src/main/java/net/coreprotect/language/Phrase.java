@@ -12,6 +12,7 @@ import java.util.regex.Pattern;
 
 public enum Phrase {
 
+    PREFIX,
     ACTION_NOT_SUPPORTED,
     AMOUNT_BLOCK,
     AMOUNT_CHUNK,
