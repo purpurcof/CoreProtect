@@ -1,5 +1,6 @@
 # CoreProtect Language File (de)
 
+PREFIX: "CoreProtect - "
 ACTION_NOT_SUPPORTED: "Diese Aktion wird nicht unterstützt."
 AMOUNT_BLOCK: "{0} {Block|Blöcke}"
 AMOUNT_CHUNK: "{0} {Chunk|Chunks}"
