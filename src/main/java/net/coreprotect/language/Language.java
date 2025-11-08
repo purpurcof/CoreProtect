@@ -29,6 +29,7 @@ public class Language {
     }
 
     public static void loadPhrases() {
+        phrases.put(Phrase.PREFIX, "CoreProtect - ");
         phrases.put(Phrase.ACTION_NOT_SUPPORTED, "That action is not supported by the command.");
         phrases.put(Phrase.AMOUNT_BLOCK, "{0} {block|blocks}");
         phrases.put(Phrase.AMOUNT_CHUNK, "{0} {chunk|chunks}");
