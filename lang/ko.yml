@@ -1,5 +1,6 @@
 # CoreProtect Language File (ko)
 
+PREFIX: "CoreProtect - "
 ACTION_NOT_SUPPORTED: "이 명령어는 해당 작업을 지원하지 않습니다."
 AMOUNT_BLOCK: "{0}개의 {블록|블록}"
 AMOUNT_CHUNK: "{0}개의 {청크|청크}"
