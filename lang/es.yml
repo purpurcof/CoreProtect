@@ -1,5 +1,6 @@
 # CoreProtect Language File (es)
 
+PREFIX: "CoreProtect - "
 ACTION_NOT_SUPPORTED: "Está acción no es compatible con el comando."
 AMOUNT_BLOCK: "{0} {bloque|bloques}"
 AMOUNT_CHUNK: "{0} {chunk|chunks}"
