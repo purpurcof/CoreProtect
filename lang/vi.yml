@@ -1,5 +1,6 @@
 # CoreProtect Language File (vi)
 
+PREFIX: "CoreProtect - "
 ACTION_NOT_SUPPORTED: "Hành động đó không được hỗ trợ."
 AMOUNT_BLOCK: "{0} {khối|khối}"
 AMOUNT_CHUNK: "{0} {chunk|chunks}"
