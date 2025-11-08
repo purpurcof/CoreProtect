@@ -59,12 +59,12 @@ public final class Chat {
         server.getConsoleSender().sendMessage("[CoreProtect] " + string);
         for (Player player : server.getOnlinePlayers()) {
             if (player.isOp() && !player.getName().equals(user.getName())) {
-                sendMessage(player, Phrase.PREFIX + string);
+                sendMessage(player, string);
             }
         }
         if (user instanceof Player) {
             if (((Player) user).isOnline()) {
-                sendMessage(user, Phrase.PREFIX + string);
+                sendMessage(user, string);
             }
         }
     }
