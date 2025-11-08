@@ -1,6 +1,7 @@
 # CoreProtect Language File (zh-TW)
 # Translators: whitebear13579, flandretw, ianiiaannn, hanshans135
 
+PREFIX: "CoreProtect - "
 ACTION_NOT_SUPPORTED: "此指令不支援該行為。"
 AMOUNT_BLOCK: "{0} 格{方塊|方塊}"
 AMOUNT_CHUNK: "{0} 個{區塊|區塊}"
