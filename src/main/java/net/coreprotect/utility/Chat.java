@@ -9,6 +9,7 @@ import org.bukkit.command.CommandSender;
 import org.bukkit.command.ConsoleCommandSender;
 import org.bukkit.entity.Player;
 
+import net.coreprotect.language.Phrase;
 import net.coreprotect.spigot.SpigotAdapter;
 
 public final class Chat {
@@ -62,12 +63,12 @@ public final class Chat {
         server.getConsoleSender().sendMessage("[CoreProtect] " + string);
         for (Player player : server.getOnlinePlayers()) {
             if (player.isOp() && !player.getName().equals(user.getName())) {
-                sendMessage(player, Color.DARK_AQUA + "CoreProtect " + Color.WHITE + "- " + string);
+                sendMessage(player, Phrase.PREFIX + string);
             }
         }
         if (user instanceof Player) {
             if (((Player) user).isOnline()) {
-                sendMessage(user, Color.DARK_AQUA + "CoreProtect " + Color.WHITE + "- " + string);
+                sendMessage(user, Phrase.PREFIX + string);
             }
         }
     }
