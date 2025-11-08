@@ -1,5 +1,6 @@
 # CoreProtect Language File (uk)
 
+PREFIX: "CoreProtect - "
 ACTION_NOT_SUPPORTED: "Ця дія не підтримується."
 AMOUNT_BLOCK: "{0} {блок|блоки}"
 AMOUNT_CHUNK: "{0} {шматок|шматки}"
