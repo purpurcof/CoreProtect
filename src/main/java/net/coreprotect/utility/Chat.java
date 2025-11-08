@@ -33,7 +33,7 @@ public final class Chat {
     }
 
     public static void sendMessage(CommandSender sender, String message) {
-        sender.sendMessage(Phrase.PREFIX + message);
+        sender.sendMessage(Phrase.build(Phrase.PREFIX) + message);
     }
 
     public static void sendConsoleMessage(String string) {
