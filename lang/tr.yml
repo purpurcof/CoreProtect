@@ -1,5 +1,6 @@
 # CoreProtect Language File (tr)
 
+PREFIX: "CoreProtect - "
 ACTION_NOT_SUPPORTED: "Bu işlem desteklenmiyor."
 AMOUNT_BLOCK: "{0} {blok|bloklar}"
 AMOUNT_CHUNK: "{0} {yığın|parçalar}"
